@@ -2,9 +2,19 @@
   <head>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+      var app = window.Telegram.WebApp;
+      console.log(app.initData);
+    </script>
+    
+    
   </head>
   <body>
     <div class="container mx-auto">
+      
+      
+      
       <nav class="flex justify-center space-x-4">
         <a href="/dashboard" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
         <a href="/team" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Team</a>
